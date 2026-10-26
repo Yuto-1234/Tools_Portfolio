@@ -1,0 +1,8 @@
+{
+  "name": "Tools_Portfolio",
+  "description": "5W1H Task Manager、5W1H思考ツール、ポートフォリオへのバナーとショートカットを備えたブラウザ向け高機能ホームページ",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
