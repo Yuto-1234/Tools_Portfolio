@@ -12,7 +12,9 @@ var APPS_DATA = [
     key: '1',
     image: './assets/images/banner_task_manager.jpg',
     color: '#06b6d4',
-    iconSvg: '<svg class="w-5 h-5 text-cyan-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path><path d="m9 13 2 2 4-4"></path></svg>'
+    iconSvg: '<svg class="w-5 h-5 text-cyan-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path><path d="m9 13 2 2 4-4"></path></svg>',
+    overview: '1つ目は、作業や生活の生産性を上げるためGoogle AI StudioとGitHubを使ってタスク管理ツールを開発した事です。ツール開発を行ったのは作業を進めている時の迷いを無くせると考えたためです。主に伝えたい事は三つあります。一つ目は、ブラウザで動作する事です。HTML、CSS、JavaScriptで作成する事でブラウザにて動作するツールを作成できます。二つ目は、日々の仕事の完了状態を明確に出来る事です。仕事の完了状態を5W1Hで定義する事で仕事を進める時に迷わなくなります。三つ目は、GitHubで公開URLを発行した事です。誰でも使えるようにGitHubで公開URLを発行してSNSで公開しました。まとめますと、ブラウザで仕事を始める前段階に計画を立てられるツールを作成しています。このツールを開発して作業や生活の環境をより適した形にした事は現場の課題解決に活かせると私は考えています。',
+    usage: '仕事を進める時に迷わないようにするため5W1Hで仕事の完了状態を定義して管理しておく時に記載して使います。'
   },
   {
     id: '5w1h-tree',
@@ -22,7 +24,9 @@ var APPS_DATA = [
     key: '2',
     image: './assets/images/banner_5w1h_framework.jpg',
     color: '#f59e0b',
-    iconSvg: '<svg class="w-5 h-5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"></path><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"></path><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path><path d="M12 18v4"></path></svg>'
+    iconSvg: '<svg class="w-5 h-5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"></path><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"></path><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path><path d="M12 18v4"></path></svg>',
+    overview: '2つ目は、直感的にわかりやすいテキストの保管場所持つためGoogle AI StudioとGitHubを使って5W1Hツリーテンプレートツールを開発した事です。開発はルーティーンとなっているメール返信内容を保管するため行いました。主に伝えたい事は三つあります。一つ目は、作業フォルダのようなツリー形状にした事です。保管場所は上位の考えから下位の具体的な作業に落とし込む事で分かりやすくまとめています。二つ目は、ブラウザで動作する事です。HTML、CSS、JavaScriptで作成する事でブラウザにて動作するようにしています。三つ目は、GitHubで公開 URLを発行した事です。誰でも使えるようにGitHubで公開URLを発行してSNSで公開しました。まとめますと、ブラウザで動作するツリー状のテキスト保管場所を作成しています。この自身の作業環境をより適した形にした事は現場の課題解決に活かせると私は考えています。',
+    usage: '仕事をパソコンのフォルダの様なツリー状に整理してテキストで保管するため上位の考えから下位の具体的な作業のやる事・各状態を5W1Hで保管しておく時に記載して使います。'
   },
   {
     id: 'weekly-time',
@@ -32,7 +36,9 @@ var APPS_DATA = [
     key: '3',
     image: './assets/images/banner_weekly_time_management.jpg',
     color: '#a855f7',
-    iconSvg: '<svg class="w-5 h-5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"></path><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"></path><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"></path></svg>'
+    iconSvg: '<svg class="w-5 h-5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"></path><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"></path><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"></path></svg>',
+    overview: '3つ目は、スマホで重要なタスクを管理するためGoogle AI StudioとGitHubを使って週間タイムマネジメントツールを作成した事です。作成したのは一週間で最も達成したいタスクを管理したいと考えたためです。主に伝えたい事は三つあります。一つ目は、ブラウザで動作する事です。HTML、CSS、JavaScriptで作成する事でブラウザにて動作するようにしています。二つ目は、スマホで動作する事です。手帳のようにタスク確認をしたいためスマホで動作するようにしました。三つ目は、GitHubで公開URLを発行した事です。ツールの共有を出来るようGitHubで公開URLを発行し友達に共有しました。まとめますと、手帳のような手軽さで重要度の高いタスクを確認出来るようにしています。この自身の生活をより適した環境にした事は現場の課題解決に活かせると私は考えています。',
+    usage: '一週間で最優先したいタスクを管理するためコンパスに一週間で日々取り組みたい事、個人の役割と目標を記載、カレンダーに緊急ではないけど重要なタスクを記載して管理しておく時に使います。'
   }
 ];
 
@@ -103,6 +109,37 @@ function renderSpotlightView() {
   var tabsEl = document.getElementById('banner-tabs');
   if (!spotlightEl || !tabsEl) return;
 
+  var overviewHtml = '';
+  if (activeApp.overview) {
+    var usageHtml = '';
+    if (activeApp.usage) {
+      usageHtml = [
+        '<div class="mt-4 pt-4 border-t border-slate-800/80">',
+        '  <div class="flex items-center gap-2 mb-2 font-bold text-sm sm:text-base" style="color: ' + activeApp.color + ';">',
+        '    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>',
+        '    <span>【使い方】</span>',
+        '  </div>',
+        '  <p class="text-xs sm:text-sm text-slate-300 leading-relaxed tracking-wide">',
+        '    ' + activeApp.usage,
+        '  </p>',
+        '</div>'
+      ].join('');
+    }
+
+    overviewHtml = [
+      '<div class="mt-4 p-5 sm:p-6 rounded-2xl bg-slate-900/95 text-slate-200 shadow-xl backdrop-blur-sm border" style="border-color: ' + activeApp.color + '50;">',
+      '  <div class="flex items-center gap-2 mb-3 font-bold text-sm sm:text-base" style="color: ' + activeApp.color + ';">',
+      '    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>',
+      '    <span>【ツール概要】</span>',
+      '  </div>',
+      '  <p class="text-xs sm:text-sm text-slate-300 leading-relaxed whitespace-pre-line tracking-wide">',
+      '    ' + activeApp.overview,
+      '  </p>',
+      '  ' + usageHtml,
+      '</div>'
+    ].join('');
+  }
+
   spotlightEl.innerHTML = [
     '<div class="relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 shadow-2xl group transition-all duration-300">',
     '  <div class="relative aspect-[4/3] sm:aspect-[21/9] max-h-[460px] w-full overflow-hidden bg-slate-950">',
@@ -145,7 +182,8 @@ function renderSpotlightView() {
     '      </div>',
     '    </div>',
     '  </div>',
-    '</div>'
+    '</div>',
+    overviewHtml
   ].join('');
 
   tabsEl.innerHTML = APPS_DATA.map(function(app, index) {
@@ -180,6 +218,31 @@ function renderGridView() {
   if (!gridContainer) return;
 
   gridContainer.innerHTML = APPS_DATA.map(function(app, index) {
+    var cardOverview = '';
+    if (app.overview) {
+      var usageCard = '';
+      if (app.usage) {
+        usageCard = [
+          '<div class="mt-2 pt-2 border-t border-slate-800/80 text-xs text-slate-300">',
+          '  <span class="font-bold block mb-1" style="color: ' + app.color + ';">【使い方】</span>',
+          '  <p class="leading-relaxed">' + app.usage + '</p>',
+          '</div>'
+        ].join('');
+      }
+
+      cardOverview = [
+        '<div class="mt-3 p-3.5 rounded-xl bg-slate-950/90 text-slate-300 border" style="border-color: ' + app.color + '40;">',
+        '  <div class="text-xs font-bold mb-1.5 flex items-center gap-1.5" style="color: ' + app.color + ';">',
+        '    <span>【ツール概要】</span>',
+        '  </div>',
+        '  <p class="text-xs text-slate-300 leading-relaxed whitespace-pre-line line-clamp-6 sm:line-clamp-none">',
+        '    ' + app.overview,
+        '  </p>',
+        '  ' + usageCard,
+        '</div>'
+      ].join('');
+    }
+
     return [
       '<div class="flex flex-col rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 shadow-xl hover:border-slate-700 transition-all group">',
       '  <div class="relative aspect-[16/9] w-full overflow-hidden bg-slate-950">',
@@ -198,9 +261,10 @@ function renderGridView() {
       '  </div>',
       '  <div class="p-4 sm:p-5 flex-1 flex flex-col justify-between">',
       '    <div>',
-      '      <h3 class="text-base sm:text-lg font-bold text-white mb-3">' + app.title + '</h3>',
+      '      <h3 class="text-base sm:text-lg font-bold text-white mb-2">' + app.title + '</h3>',
+      '      ' + cardOverview,
       '    </div>',
-      '    <div class="flex items-center gap-2 pt-2 border-t border-slate-800">',
+      '    <div class="flex items-center gap-2 pt-3 mt-3 border-t border-slate-800">',
       '      <a',
       '        href="' + app.url + '"',
       '        target="_blank"',
